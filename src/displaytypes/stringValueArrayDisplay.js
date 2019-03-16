@@ -3,15 +3,15 @@ import {
   isFunction,
   isNil,
   toString,
-} from "lodash";
+} from 'lodash';
 
-import { NO_VALUE } from "../helpers";
+import { NO_VALUE } from '../helpers';
 
 export default function stringValueArrayDisplay(
   createElement,
   valueArray,
   get,
-  valueStyleClass = "",
+  valueStyleClass = '',
 ) {
   if (isNil(valueArray)) return null;
 
@@ -19,7 +19,7 @@ export default function stringValueArrayDisplay(
   return valueArrayToUse.map((value) => {
     const valueToUse = toString(isFunction(get) ? get(value) : value);
     return createElement(
-      "p",
+      'p',
       { class: valueStyleClass },
       `${valueToUse}`,
     );
