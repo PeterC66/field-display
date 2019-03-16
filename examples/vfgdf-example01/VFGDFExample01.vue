@@ -32,8 +32,11 @@
 
       <template v-else>
         <div class="panel panel-default">
-          <div class="panel-heading">
-            Form (changes here will be reflected in Display Fields)
+          <div
+            class="panel-heading"
+            style="background-color: lightgreen;"
+          >
+            VFG Form (changes here will be reflected in Display Fields)
           </div>
           <div class="panel-body">
             <vue-form-generator
