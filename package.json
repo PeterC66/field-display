@@ -8,6 +8,12 @@
     "type": "git",
     "url": "git+https://github.com/PeterC66/vfg-display-fields.git"
   },
+  "files": [
+    "/doc",
+    "/examples",
+    "/public",
+    "/src"
+  ],
   "keywords": [
     "vfg",
     "vue-form-generator"
