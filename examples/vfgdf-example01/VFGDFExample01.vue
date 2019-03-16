@@ -74,7 +74,7 @@
 
 <script>
 import VueFormGenerator from 'vue-form-generator';
-import { DisplayFields } from '../../src/DisplayFields.vue';
+import { DisplayFields } from '../../src';
 
 export default {
   name: 'App',
