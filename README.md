@@ -71,19 +71,9 @@ export default {
 
 vfg-display-fields is available under the [MIT license](https://tldrlegal.com/license/mit-license).
 
-## Contact
+## Development - from vue/cli
 
-Copyright \(C\) 2019 PeterC66
-
-[![@PeterC66](https://img.shields.io/badge/github-PeterC66-green.svg)](https://github.com/PeterC66)
-
-## Project setup
-
-```bash
-npm install
-```
-
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads
 
 ```bash
 npm run serve
@@ -95,19 +85,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-
-```bash
-npm run test
-```
-
-### Lints and fixes files
-
-```bash
-npm run lint
-```
-
-### Run your unit tests
+### Run unit tests
 
 ```bash
 npm run test:unit
@@ -116,3 +94,9 @@ npm run test:unit
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Contact
+
+Copyright \(C\) 2019 PeterC66
+
+[![@PeterC66](https://img.shields.io/badge/github-PeterC66-green.svg)](https://github.com/PeterC66)
