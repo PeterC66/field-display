@@ -11,6 +11,7 @@
 </template>
 
 <script>
+console.log(this.schema, this.obj);
 export default {
   name: 'DisplayGroups',
   components: {
