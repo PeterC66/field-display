@@ -1,7 +1,23 @@
 {
   "name": "vfg-display-fields",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.4a",
+  "description": "A Vue.js component for displaying the fields of an object - using a vfg schema if provided",
+  "main": "src/index.js",
+  "directories":{"doc":"./doc"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterC66/vfg-display-fields.git"
+  },
+  "keywords": [
+    "vfg",
+    "vue-form-generator"
+  ],
+  "author": "Peter Cooper <peter@pcooper.me.uk> (https://www.hcnhistory.org.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterC66/vfg-display-fields/issues"
+  },
+  "homepage": "https://github.com/PeterC66/vfg-display-fields#readme",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
