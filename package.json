@@ -1,6 +1,6 @@
 {
   "name": "vfg-display-fields",
-  "version": "0.0.4c",
+  "version": "0.0.5-a",
   "description": "A Vue.js component for displaying the fields of an object - using a vfg schema if provided",
   "main": "src/index.js",
   "directories":{"doc":"./doc"},
