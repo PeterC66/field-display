@@ -11,7 +11,6 @@
 </template>
 
 <script>
-console.log(this.schema, this.obj);
 export default {
   name: 'DisplayGroups',
   components: {
@@ -35,6 +34,9 @@ export default {
     groups() {
       return this.schema.groups || [];
     },
+  },
+  mounted() {
+    console.log('DG', this.schema, this.obj);
   },
 };
 </script>

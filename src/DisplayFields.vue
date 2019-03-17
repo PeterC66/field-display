@@ -104,6 +104,9 @@ export default {
       return obj;
     },
   },
+  mounted() {
+    console.log('DF', this.schema, this.obj);
+  },
 };
 </script>
 
