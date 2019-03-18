@@ -13,9 +13,9 @@
 <script>
 export default {
   name: 'DisplayGroups',
-  // components: {
-  //   'display-fields': () => import('./DisplayFields.vue'),
-  // },
+  components: {
+    'display-fields': () => import('./DisplayFields.vue'),
+  },
   props: {
     schema: {
       type: Object,
@@ -35,10 +35,10 @@ export default {
       return this.schema.groups || [];
     },
   },
-  beforeCreate() {
-    // eslint-disable-next-line global-require, max-len
-    this.$options.components['display-fields'] = require('./DisplayFields.vue').default;
-  },
+  // beforeCreate() {
+  //   // eslint-disable-next-line global-require, max-len
+  //   this.$options.components['display-fields'] = require('./DisplayFields.vue').default;
+  // },
   mounted() {
     console.log('DG', this.schema, this.obj);
   },
