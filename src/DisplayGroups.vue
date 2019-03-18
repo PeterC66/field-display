@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vfg-display-fields
+    <display-fields
       v-for="group in groups"
       :key="group.legend"
       :schema="group"
@@ -14,7 +14,7 @@
 export default {
   name: 'DisplayGroups',
   // components: {
-  //   'vfg-display-fields': () => import('./DisplayFields.vue'),
+  //   'display-fields': () => import('./DisplayFields.vue'),
   // },
   props: {
     schema: {
@@ -37,7 +37,7 @@ export default {
   },
   beforeCreate() {
     // eslint-disable-next-line global-require, max-len
-    this.$options.components['vfg-display-fields'] = require('./DisplayFields.vue').default;
+    this.$options.components['display-fields'] = require('./DisplayFields.vue').default;
   },
   mounted() {
     console.log('DG', this.schema, this.obj);

@@ -5,7 +5,7 @@ const LibraryModule = {
 
   install(Vue) {
     // Register components with vue
-    Vue.component('vfg-display-fields', DisplayFields);
+    Vue.component('display-fields', DisplayFields);
   },
 };
 
