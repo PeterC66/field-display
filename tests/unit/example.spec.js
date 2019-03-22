@@ -1,12 +1,23 @@
 import { shallowMount } from '@vue/test-utils';
-import HelloWorld from '@/components/HelloWorld.vue';
+import DisplayFields from '@/DisplayFields.vue';
 
-describe('HelloWorld.vue', () => {
+describe('DisplayFields.vue', () => {
   it('renders props.msg when passed', () => {
-    const msg = 'new message';
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg },
+    const obj = { id: 1 };
+    const schema = {
+      fields: [{
+        type: 'input',
+        inputType: 'text',
+        label: 'ID',
+        model: 'id',
+        readonly: true,
+        featured: false,
+        disabled: true,
+      }],
+    };
+    const wrapper = shallowMount(DisplayFields, {
+      propsData: { schema, obj },
     });
-    expect(wrapper.text()).toMatch(msg);
+    expect(wrapper.text()).toMatch('xx');
   });
 });

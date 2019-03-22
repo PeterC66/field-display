@@ -4,6 +4,8 @@ VFG Display Fields is a [Vue.js](https://github.com/vuejs/vue) component for dis
 
 ![Example screenshot](doc/fd-example01.jpg)
 
+**Note that development of this package has been abandoned** as the author is retiring. It nearly works but see [this issue](https://github.com/CompuIves/codesandbox-client/issues/1631). For a half-experienced developer it should be easy to resolve. If you would like to take ownership, feel free to do so (contact peter@pcooper.me.uk).
+
 ## Demo
 
 [CodeSandBox example](https://codesandbox.io/embed/ykpj1jpxvv?fontsize=14&view=preview)
